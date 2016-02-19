@@ -1,11 +1,3 @@
-//
-//  Item.m
-//  GildedRose-Objc
-//
-//  Created by Isil Demir on 1/24/14.
-//
-//
-
 #import "Item.h"
 
 @implementation Item 

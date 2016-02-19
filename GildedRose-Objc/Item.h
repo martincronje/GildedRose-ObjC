@@ -1,11 +1,3 @@
-//
-//  Item.h
-//  GildedRose-Objc
-//
-//  Created by Isil Demir on 1/24/14.
-//
-//
-
 #import <Foundation/Foundation.h>
 
 @interface Item : NSObject {
