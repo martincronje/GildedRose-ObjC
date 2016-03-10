@@ -32,7 +32,6 @@
                         }
                     }
                     if ([self.items[i] sellIn] < 6) {
-
                         if ([self.items[i] quality] < 50) {
                             [self.items[i] setQuality:[self.items[i] quality] + 1];
                         }
