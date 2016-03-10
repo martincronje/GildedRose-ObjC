@@ -14,9 +14,6 @@
 		2DBF08CCBE352E588CA2C9D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF0DE1DF33B5DEC675848C /* Info.plist */; };
 		2DBF093784E2D95E07B4E1B6 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF03D83ECCA6761CA4CDB1 /* Item.m */; };
 		2DBF0A2DDA152882E985E3D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF01D02BD7F373B05C04AA /* AppDelegate.m */; };
-		2DBF0B4AF65EA7A8D2EBA626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF0250AFF8FB71743A3070 /* ViewController.m */; };
-		2DBF0C8DE89835213C8F0BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF09A48028ECD8C529097C /* LaunchScreen.storyboard */; };
-		2DBF0D9F0C220F862A4CBA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF08EE224E4AD26FC5D1CC /* Main.storyboard */; };
 		2DBF0F0C1F6C76DC17EE3A72 /* GildedRoseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF099AF80502DA5D506BD8 /* GildedRoseTests.m */; };
 /* End PBXBuildFile section */
 
@@ -33,12 +30,8 @@
 /* Begin PBXFileReference section */
 		2DBF000C6C7376356A645C3D /* GildedRoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GildedRoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBF01D02BD7F373B05C04AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2DBF01E39743B2E92DF5F627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DBF023DB74629448FF9C147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		2DBF0250AFF8FB71743A3070 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2DBF03D83ECCA6761CA4CDB1 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
-		2DBF0475255FDF8A6FF6EB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2DBF04D5B696E25696E98A42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2DBF05A2E3011C1DCE622D74 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		2DBF069B271AAE062A9CC773 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DBF07665A2FEB9E2071F9B7 /* GildedRose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GildedRose.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,13 +101,9 @@
 			children = (
 				2DBF0DE1DF33B5DEC675848C /* Info.plist */,
 				2DBF079295A08E5A3937466C /* Assets.xcassets */,
-				2DBF09A48028ECD8C529097C /* LaunchScreen.storyboard */,
 				2DBF0E072D9AE6A42F7CF81D /* Supporting Files */,
 				2DBF07D389F033675EA24185 /* AppDelegate.h */,
 				2DBF01D02BD7F373B05C04AA /* AppDelegate.m */,
-				2DBF08EE224E4AD26FC5D1CC /* Main.storyboard */,
-				2DBF04D5B696E25696E98A42 /* ViewController.h */,
-				2DBF0250AFF8FB71743A3070 /* ViewController.m */,
 				2DBF07C2E20EB1EC5F87CF59 /* GildedRose.h */,
 				2DBF03D83ECCA6761CA4CDB1 /* Item.m */,
 				2DBF0E212E504DB4B6C232AC /* GildedRose.m */,
@@ -194,8 +183,6 @@
 			files = (
 				2DBF08CCBE352E588CA2C9D9 /* Info.plist in Resources */,
 				2DBF00A05139EBD53FA3EC6B /* Assets.xcassets in Resources */,
-				2DBF0C8DE89835213C8F0BDB /* LaunchScreen.storyboard in Resources */,
-				2DBF0D9F0C220F862A4CBA25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +203,6 @@
 			files = (
 				2DBF00F0B827B5AB0A291279 /* main.m in Sources */,
 				2DBF0A2DDA152882E985E3D6 /* AppDelegate.m in Sources */,
-				2DBF0B4AF65EA7A8D2EBA626 /* ViewController.m in Sources */,
 				2DBF093784E2D95E07B4E1B6 /* Item.m in Sources */,
 				2DBF04363AFFB6906B524DEF /* GildedRose.m in Sources */,
 			);
@@ -239,25 +225,6 @@
 			targetProxy = 2DBF05CCBF3D7859212959D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2DBF08EE224E4AD26FC5D1CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DBF01E39743B2E92DF5F627 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2DBF09A48028ECD8C529097C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DBF0475255FDF8A6FF6EB39 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2DBF0267B4CC5011EB099A02 /* Debug */ = {
