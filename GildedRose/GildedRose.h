@@ -1,19 +1,11 @@
-//
-//  GildedRose.h
-//  GildedRose
-//
-//  Created by amok on 2016/02/19.
-//
-//
+#import <Foundation/Foundation.h>
 
-#import <UIKit/UIKit.h>
+@interface GildedRose : NSObject
 
-//! Project version number for GildedRose.
-FOUNDATION_EXPORT double GildedRoseVersionNumber;
+@property (nonatomic, readonly) NSArray *items;
 
-//! Project version string for GildedRose.
-FOUNDATION_EXPORT const unsigned char GildedRoseVersionString[];
+- (id)initWith:(NSArray *)items;
 
-// In this header, you should import all the public headers of your framework using statements like #import <GildedRose/PublicHeader.h>
+- (void)updateQuality;
 
-
+@end
